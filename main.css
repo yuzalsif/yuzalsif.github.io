@@ -1,0 +1,108 @@
+.bg-grey{
+    background-color: #e9ecff;
+}
+
+
+.navbar-links{
+    color: #e9ecff;
+}
+
+.navbar-links:hover{
+    color: #ffc107 !important;
+}
+
+/* this is the custom underline for headers */
+
+.underline{
+    position: relative;
+    display: inline-block;
+}
+.underline::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid #ffc107;
+    transition: width 0.3s ease;
+    width: 60%;
+    height: 14px;
+
+}
+
+/* button styles */
+.button{
+    width: 16rem;
+    height: 4.2rem;
+    border-radius: 1.76rem;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.button:hover{
+    color: black !important;
+    border-color: #ffc107;
+    background-color: white !important;
+}
+
+.social-links{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 3rem;
+    color: #ffc107;
+}
+
+.social-links-youtube:hover{
+    color: red;
+}
+
+.social-links-facebook-twitter:hover{
+  color: light-blue;
+}
+
+#backToTopButton{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: white !important;
+    background-color: #ffc107 !important;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#backToTopButton:hover{
+    border-color: #ffc107 !important;
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.staff-display{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #e9ecff;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+
+.staff-display-image{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+}
+
+.staff-display-controll{
+    margin: 2rem auto;
+}
+
+.staff-display-button{
+    background-color: #ffc107;
+    color: white;
+    width: 6rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}

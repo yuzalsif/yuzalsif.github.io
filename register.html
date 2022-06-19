@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is the link to bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- this is the link to bootstrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="main.css">
+    <title>SHAMSIYE Register</title>
+</head>
+
+<body>
+
+    <div class="text-center">
+        <h2 class="underline mt-5">Register For Shamsiye</h2>
+    </div>
+
+    <div class="registration-form container">
+
+        <form class="py-5">
+
+            <div class="mb-3">
+                <label for="InputFirtsName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="InputFirtsName" aria-describedby="FirstNameHelp">
+                <div id="FirstNameHelp" class="form-text">let every one know you</div>
+            </div>
+            <div class="mb-3">
+                <label for="InputSecondName" class="form-label">Second Name</label>
+                <input type="text" class="form-control" id="InputSecondName" aria-describedby="SecondNameHelp">
+                <div id="SecondNameHelp" class="form-text">provide your middle name</div>
+            </div>
+            <div class="mb-3">
+                <label for="InputLastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="InputLastName" aria-describedby="LastNameHelp">
+                <div id="LastNameHelp" class="form-text">provide your last name</div>
+            </div>
+            <div class="mb-3">
+                <label for="UsserName" class="form-label">UserName</label>
+                <input type="text" class="form-control" id="UserName" aria-describedby="UserNameHelp">
+                <div id="UserNameHelp" class="form-text">let us know how people will identify you!</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="DateOfBirth" class="form-label">Date of birth</label>
+                <input type="date" class="form-control" id="DateOfBirth" aria-describedby="DateOfBirthHelp">
+                <div id="DateOfBirthHelp" class="form-text">When you were born</div>
+            </div>
+            <div class="mb-3">
+                <label for="InputPassword1" class="form-label">Password</label>
+                <input type="password" minlength="8" class="form-control" id="InputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="Cv" class="form-label">Cv</label>
+                <input type="file" class="form-control" id="Cv" aria-describedby="CvHelp">
+                <div id="CvHelp" class="form-text">Your Cv file</div>
+            </div>
+            <div class="mb-3">
+                <label for="MobileNumber" class="form-label">Mobile Number</label>
+                <input type="number" class="form-control" id="MobileNumber" aria-describedby="MobileNumberHelp">
+                <div id="MobileNumberHelp" class="form-text">Your Cv file</div>
+            </div>
+            <div class="mb-3">
+                <label for="Facebook" class="form-label"><i class="bi bi-facebook"></i></label>
+                <input type="text" class="form-control" id="Facebook" aria-describedby="FacebookHelp">
+                <div id="FacebookHelp" class="form-text">Your facebook username</div>
+            </div>
+            <div class="mb-3">
+                <label for="Twitter" class="form-label"><i class="bi bi-twitter"></i></label>
+                <input type="text" class="form-control" id="Twitter" aria-describedby="TwitterHelp">
+                <div id="TwitterHelp" class="form-text">Your Twitter usename</div>
+            </div>
+            <div class="mb-3">
+                <label for="Instagram" class="form-label"><i class="bi bi-instagram"></i></label>
+                <input type="text" class="form-control" id="Instagram" aria-describedby="InstagramHelp">
+                <div id="InstagramHelp" class="form-text">Your Instagram username</div>
+            </div>
+            <button type="submit" class="btn" style="background: #ffc107; color: white;">Submit</button>
+        </form>
+    </div>
+
+    <!-- the footer section start here -->
+    <section class="bg-light mt-5 py-5">
+        <h2 class="text-center"> Shamsiye Schools </h2>
+
+        <div class="pt-5 text-center">
+            <p class="text-muted"> All rights reserved </p>
+            <P"><i class="bi bi-code-slash"></i> with
+                <i class="bi bi-heart-fill text-danger"></i> by <strong>2021-04-00036</strong></P>
+        </div>
+    </section>
+</body>
+
+</html>
